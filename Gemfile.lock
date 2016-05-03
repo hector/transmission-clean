@@ -1,0 +1,41 @@
+GIT
+  remote: git://github.com/dblommesteijn/trans-api.git
+  revision: 2b1c19db313fe58b5eeaabc8c46155a502260f45
+  specs:
+    trans-api (0.0.6)
+      json (> 1.6.1)
+      nokogiri (> 1.5.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chronic (0.10.2)
+    coderay (1.1.1)
+    json (1.8.3)
+    method_source (0.8.2)
+    mini_portile2 (2.0.0)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-doc (0.8.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
+    slop (3.6.0)
+    whenever (0.9.4)
+      chronic (>= 0.6.3)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  pry-doc
+  trans-api!
+  whenever
+
+BUNDLED WITH
+   1.11.2

@@ -1,0 +1,13 @@
+:transmission:
+  :host: localhost
+  :port: 9091
+  :user: user
+  :pass: password
+  :path: /transmission/rpc
+:clean:
+  # Should files of the torrent also be removed?
+  :remove_data: true
+  # (Optional) Only remove torrents downloaded in the following directories
+  :only_dirs:
+    - SickRage
+    - CouchPotato
